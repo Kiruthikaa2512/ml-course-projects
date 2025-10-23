@@ -1,0 +1,26 @@
+site_name: ML Course Projects
+site_description: Portfolio of module projects for ML course
+site_author: Kiruthikaa Natarajan Srinivasan
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: pink
+
+nav:
+  - Home: index.md
+  - Lab 1: notebooks/lab1_chocolate_sales.md
+  - Data: data/README.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - codehilite
+  - footnotes
+  - pymdownx.superfences
+  - pymdownx.details
+
+docs_dir: docs
