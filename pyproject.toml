@@ -1,0 +1,13 @@
+[project]
+name = "ml-course-projects"
+version = "0.1.0"
+description = "Module projects for ML course"
+authors = ["Kiruthikaa Natarajan Srinivasan"]
+dependencies = [
+  "pandas",
+  "scikit-learn",
+  "matplotlib",
+  "seaborn",
+  "jupyter"
+]
+requires-python = ">=3.10"
